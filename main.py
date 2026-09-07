@@ -82,6 +82,7 @@ previous_available = None
 
 print("Мониторинг запущен")
 
+send_telegram("✅ Мониторинг New Balance запущен")
 
 while True:
     try:
